@@ -2,10 +2,8 @@ package com.example.bookcrud.controller;
 
 import com.example.bookcrud.dto.AuthorRequestDTO;
 import com.example.bookcrud.dto.AuthorResponseDTO;
-import com.example.bookcrud.model.Author;
 import com.example.bookcrud.response.ApiResponse;
 import com.example.bookcrud.service.AuthorService;
-import com.example.bookcrud.service.BookService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
